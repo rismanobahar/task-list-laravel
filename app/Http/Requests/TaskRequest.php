@@ -8,10 +8,12 @@ class TaskRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
+     * if it set to false then the user wont be able to make any post request, be it creating data or editing data
+     * if it set to true then the user can post any request, creating data or editing it
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**

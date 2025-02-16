@@ -18,15 +18,15 @@ folder list detail :
 5. /app/database/migrations : for migrating the query table into database
 6. /app/database/seeders : to set how much of fake data will be made
 7. /app/Models : for creating database table model and set some rule on each table
-8. /app/Http/Requests : 
+8. /app/Http/Requests : for setting up a requirement/rules in the form
  
 file list detail :
-1. /app/resources/views/show.blade.php :
-2. /app/resources/views/index.blade.php :
-3. /app/resources/routes/web.php :
-4. /app/Models/Task.php :
-5. /app/database/factories/TaskFactory.php :
-6. /app/database/migrations/2024_09_26...php :
-7. /app/database/seeders/DatabaseSeeder.php :
-8. /app/resources/views/layouts/app.blade.php :
-9. /app/resources/views/create.blade.php :
+1. /app/resources/views/show.blade.php : for showing all the data
+2. /app/resources/views/index.blade.php : used as the base for all interface combined in it
+3. /app/resources/routes/web.php : used for creating API
+4. /app/Models/Task.php : for creating a model for the form
+5. /app/database/factories/TaskFactory.php : for creating dummy data
+6. /app/database/migrations/2024_09_26...php : for migrating database column
+7. /app/database/seeders/DatabaseSeeder.php : for initializing data dummy
+8. /app/resources/views/layouts/app.blade.php : similar with index.blade.php but is used for configuring the entire interface
+9. /app/resources/views/create.blade.php : used for interfacing create page
