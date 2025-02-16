@@ -30,3 +30,5 @@ file list detail :
 7. /app/database/seeders/DatabaseSeeder.php : for initializing data dummy
 8. /app/resources/views/layouts/app.blade.php : similar with index.blade.php but is used for configuring the entire interface
 9. /app/resources/views/create.blade.php : used for interfacing create page
+
+![Demo] https://drive.google.com/file/d/1qnf4JQoZ0oaIC4cnWA5cM2973lFlcJjI/view?usp=drive_link
