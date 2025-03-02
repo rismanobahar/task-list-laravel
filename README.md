@@ -17,9 +17,9 @@ folder list detail :
 2. /app/resources/routes : for creating api, controller, error handling
 3. /app/resources/routes/views/layouts : for assembling all the view component that has been made
 4. /app/database/factories : for creating a fake database
-5. /app/database/migrations : for migrating the query table into database
+5. /app/database/migrations : Defines the structure of a database table (columns, types, constraints). It is used to create, modify, or delete tables
 6. /app/database/seeders : to set how much of fake data will be made
-7. /app/Models : for creating database table model and set some rule on each table
+7. /app/Models : Represents a table in the database and provides an interface to interact with it. It contains business logic and relationships 
 8. /app/Http/Requests : for setting up a requirement/rules in the form
  
 file list detail :
