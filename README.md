@@ -12,7 +12,7 @@ the stack that are used was as follows:
 - composer = 2.8.1
 - containerization = Docker
 
-command line list detail :
+## Command line list detail :
 1. composer create-project laravel/laravel (your project name->tasklist) : to create the project
 2. cd tasklist : access the project file
 3. php artisan : serve run the project
@@ -24,7 +24,7 @@ command line list detail :
 9. php artisan route:list : to showing all the route available
 10. php artisan make:request TaskRequest
 
-folder list detail :
+## Folder list detail :
 1. /app/resources/views : for creating view/frontend side
 2. /app/resources/routes : for creating api, controller, error handling
 3. /app/resources/routes/views/layouts : for assembling all the view component that has been made
@@ -34,7 +34,7 @@ folder list detail :
 7. /app/Models : Represents a table in the database and provides an interface to interact with it. It contains business logic and relationships 
 8. /app/Http/Requests : for setting up a requirement/rules in the form
  
-file list detail :
+## File list detail :
 1. /app/resources/views/show.blade.php : for showing all the data   
 2. /app/resources/views/index.blade.php : used as the base for all interface combined in it
 3. /app/resources/routes/web.php : used for creating API
