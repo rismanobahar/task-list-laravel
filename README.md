@@ -1,4 +1,16 @@
-![Demo] https://drive.google.com/file/d/1qnf4JQoZ0oaIC4cnWA5cM2973lFlcJjI/view?usp=drive_link
+## ![Demo] https://drive.google.com/file/d/1qnf4JQoZ0oaIC4cnWA5cM2973lFlcJjI/view?usp=drive_link
+
+## DESCRIPTION : 
+This is a project about list management or CRUD web application where the user can create, retrieve, delete, and update data as well as marking a list of data as done
+
+## Tech Stack :
+the stack that are used was as follows:
+- laravel = 10.48.20
+- PHP = 8.1.10
+- database = mySQL
+- frontend = laravel blade
+- composer = 2.8.1
+- containerization = Docker
 
 command line list detail :
 1. composer create-project laravel/laravel (your project name->tasklist) : to create the project
@@ -23,7 +35,7 @@ folder list detail :
 8. /app/Http/Requests : for setting up a requirement/rules in the form
  
 file list detail :
-1. /app/resources/views/show.blade.php : for showing all the data
+1. /app/resources/views/show.blade.php : for showing all the data   
 2. /app/resources/views/index.blade.php : used as the base for all interface combined in it
 3. /app/resources/routes/web.php : used for creating API
 4. /app/Models/Task.php : for creating a model for the form
