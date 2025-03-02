@@ -9,7 +9,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
     ports:
-      - 3307:3306
+      - 3307:3306 #use 3307 if 3306 is already in use
   adminer:
     image: adminer
     restart: always
