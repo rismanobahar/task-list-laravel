@@ -33,7 +33,7 @@ the stack that are used was as follows:
 - `php artisan route:list` : to showing all the route available.
 -  `php artisan make:request TaskRequest`
 
-## Folder list detail :
+## Folder and File list detail :
 - **/app/resources/views** : for creating view/frontend side.
     - `show.blade.php` : for showing all the data.
     - `index.blade.php`  : used as the base for all interface combined in it.
