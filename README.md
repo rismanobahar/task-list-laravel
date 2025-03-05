@@ -13,13 +13,13 @@ the stack that are used was as follows:
 - containerization = Docker
 
 ## Installation Steps :
-`git clone https://github.com/rismanobahar/task-list-laravel.git`
-`cd tasklist`
-`composer install`
-`cp .env.example .env`
-`php artisan key:generate`
-`php artisan migrate --seed`
-`php artisan serve`
+- `git clone https://github.com/rismanobahar/task-list-laravel.git`
+- `cd tasklist`
+- `composer install`
+- `cp .env.example .env`
+- `php artisan key:generate`
+- `php artisan migrate --seed`
+- `php artisan serve`
 
 ## Command line list detail :
 - `composer create-project laravel/laravel (your project name->tasklist)` : to create the project.
