@@ -41,7 +41,7 @@ the stack that are used was as follows:
 - **/app/resources/views/layouts** : for assembling all the view component that has been made.
     - `app.blade.php`  : similar with index.blade.php but is used for configuring the entire interface.
 - **/app/routes** : for creating api, controller, error handling.
-    - `web.php`  : used for creating API.
+    - `web.php`  : used for creating routes/API.
 - **/app/database/factories** : for creating a fake database.
     - `TaskFactory.php`  : for creating dummy data.
 - **/app/database/migrations** : Defines the structure of a database table (columns, types, constraints). It is used to create, modify, or delete tables.
