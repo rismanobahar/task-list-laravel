@@ -27,11 +27,11 @@ the stack that are used was as follows:
 - `php artisan` : serve run the project.
 - `php artisan migrate` : to migrate a new table in database and the table will be filled with laravel's default table.
 - `php artisan migrate:rollback` : to re undo the table that you have just added into the database.
-- `php artisan db:seed`
-- `php artisan make:factory TaskFactory --model=Task`
+- `php artisan db:seed` : generate fake data/dummy data into the database.
+- `php artisan make:factory TaskFactory --model=Task` : create a new model factory name TaskFactory where it will generate new model instances for testing or seeding database with test/fake/dummy data.
 - `php artisan tinker` : run laravel powershell on CMD.
 - `php artisan route:list` : to showing all the route available.
--  `php artisan make:request TaskRequest`
+-  `php artisan make:request TaskRequest`: create a new form request class named TaskRequest that is used to encapsulate validation logic and authorization logic for a specific request.
 
 ## Folder and File list detail :
 - **/app/resources/views** : for creating view/frontend side.
