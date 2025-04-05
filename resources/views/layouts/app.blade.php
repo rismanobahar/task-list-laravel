@@ -36,7 +36,7 @@
     @if (session()->has('success'))
       <div x-show="flash" 
         class="relative mb-10 rounded border border-green-400 bg-green-100 px-4 py-3 text-lg text-green-700"
-        role="alert">
+         role="alert">
         <strong class="font-bold">Success!</strong>
         <div>{{ session('success') }}</div>
         <span class="absolute top-0 bottom-0 right-0 px-4 py-3">

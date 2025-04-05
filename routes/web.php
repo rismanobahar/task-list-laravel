@@ -75,6 +75,7 @@ Route::put('tasks/{task}/toggle-complete', function (Task $task) {
   return redirect()->back()->with('success', 'Task updated successfully!');
 })->name('tasks.toggle-complete');
 
+// THE CODE BELOW IS FOR THE FALLBACK ROUTE WHICH WILL BE CALLED WHEN NO ROUTE MATCHES
 Route::fallback(function () {
     return 'Still got somewhere!';
 });
