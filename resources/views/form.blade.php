@@ -1,3 +1,5 @@
+<!-- this is a form for creating or editing a task -->
+<!-- it uses the same form for both creating and editing a task -->
 @extends('layouts.app')
 @section('title', isset($task) ? 'Edit Task' : 'Add Task')
 @section('content')
